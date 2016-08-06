@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoWeb", "ContosoWeb\ContosoWeb.csproj", "{6A60738B-95E5-4235-A191-74F840543F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoWeb.Tests", "ContosoWeb.Tests\ContosoWeb.Tests.csproj", "{FEDC6F56-3C6F-4592-BC23-165D8DC5531F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A60738B-95E5-4235-A191-74F840543F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A60738B-95E5-4235-A191-74F840543F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A60738B-95E5-4235-A191-74F840543F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A60738B-95E5-4235-A191-74F840543F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDC6F56-3C6F-4592-BC23-165D8DC5531F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDC6F56-3C6F-4592-BC23-165D8DC5531F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDC6F56-3C6F-4592-BC23-165D8DC5531F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDC6F56-3C6F-4592-BC23-165D8DC5531F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
