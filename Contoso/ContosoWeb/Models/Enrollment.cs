@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
@@ -16,6 +17,7 @@ namespace ContosoWeb.Models
         public int EnrollmentID { get; set; }
         public int CourseID { get; set; }
         public int StudentID { get; set; }
+        [DisplayName("Grade")]
         public Grade? Grade { get; set; } // o ? significa que a classe pode ser nullable.
 
         public virtual Course Course { get; set; }
